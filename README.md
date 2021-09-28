@@ -10,7 +10,10 @@ CV 赛题学习之科大讯飞新人赛人脸关键点检测挑战赛
 ```python
 import pandas as pd
 import numpy as np
+# 读取数据
 train_df = pd.read_csv('data/train.csv')
 train_img = np.load('data/train.npy')
 test_img = np.load('data/test.npy')
-```python
+# 对数据集样本进行可视化，统计关键点坐标分布
+
+```
